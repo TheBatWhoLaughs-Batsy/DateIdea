@@ -1,0 +1,261 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    height: 100vh;
+    width:100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "c1 c2 c3"
+      "c4 c5 c6"
+      "c7 c8 c9";
+    grid-gap: 0.2rem;
+    font-weight: 800;
+    font-size: 20px;
+    color:white;
+    overflow: hidden ;
+    text-decoration: none;
+    text-decoration-color: white;
+
+  }
+  .content1{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-1.png");
+    background-position: center;
+  
+}
+
+.content2{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-2.png");
+    background-position: center;
+
+}
+
+.content3{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-3.png");
+    background-position: center;
+}
+
+.content4{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-4.png");
+    background-position: center;
+
+}
+
+.content5{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-5.png");
+    background-position: center;
+
+}
+
+.content6{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-6.png");
+    background-position: center;
+
+}
+
+.content7{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-7.png");
+    background-position: center;
+
+}
+
+.content8{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-8.png");
+    background-position: center;
+
+}
+
+.content9{
+    text-transform: uppercase;
+    text-align: center;
+    padding:100px 0;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    background-image: URL("\Untitled-9.png");
+    background-position: center;
+
+}
+.pictures{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    align-content: center;
+}
+   .c1{
+    background: #a7ffeb;
+    grid-area: c1;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    text-decoration: none;
+    
+  }
+  .c1:hover .content1{  
+    transform: scale(1.3);
+    transition: 1ms;
+    text-decoration: none;
+}
+
+   .c2{
+    background: #84ffff;
+    grid-area: c2;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  .c2:hover .content2{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c3 {
+    background: #18ffff;
+    grid-area: c3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c3:hover .content3{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c4 {
+    background: #6fffd2;
+    grid-area: c4;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c4:hover .content4{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c5 {
+    background: #64ffda;
+    grid-area: c5;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    
+  }
+  
+  .c5:hover .content5{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c6 {
+    background: #73ffba;
+    grid-area: c6;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c6:hover .content6{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c7 {
+    background: #1de9b6;
+    grid-area: c7;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c7:hover .content7{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c8 {
+    background: cyan;
+    grid-area: c8;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c8:hover .content8{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  
+  .c9 {
+    background: turquoise;
+    grid-area: c9;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .c9:hover .content9{  
+    transform: scale(1.3);
+    transition: 1ms;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(180deg, rgba(255,255,255,0) 10%,  AQUAMARINE 100%);
+
+  }
+  
+  
+  
+  
